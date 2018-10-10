@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="journey-system-commons" />
+        <module name="journey-system-consume" />
+        <module name="journey-system-provide" />
+        <module name="journey-system-zuul-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="journey-system-commons" target="1.8" />
+      <module name="journey-system-consume" target="1.8" />
+      <module name="journey-system-provide" target="1.8" />
+      <module name="journey-system-web" target="1.8" />
+      <module name="journey-system-zuul-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
